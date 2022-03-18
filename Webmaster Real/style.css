@@ -1,0 +1,208 @@
+body {font-family:"Trebuchet MS", Helvetica, sans-serif;
+   font-size: 14pt;
+   background-color: #b8ada4;}
+  
+p {margin-left: 10pt;
+   margin-right: 10pt;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   }
+
+h1 {text-align:center;
+   }
+
+h2 {text-align:center;
+    color: rgb(255, 255, 255);
+   }
+
+h3 {text-align:center;
+   }
+ 
+
+   /*Links*/
+a {text-decoration: none;
+   color: rgb(255, 255, 255);
+  }
+ 
+img {max-width: 100vw;
+   max-height: 100vh;
+   width:auto;
+   }
+ 
+
+   /* Container holding the image and the text */
+.container {
+   position: relative;
+   text-align: center;
+   color: rgb(255, 255, 255);
+ }
+ 
+ /* Bottom left text */
+ .bottom-left {
+   position: absolute;
+   bottom: 8px;
+   left: 16px;
+ }
+ 
+ /* Top left text */
+ .top-left {
+   position: absolute;
+   top: 8px;
+   left: 16px;
+ }
+ 
+ /* Top right text */
+ .top-right {
+   position: absolute;
+   top: 8px;
+   right: 16px;
+ }
+ 
+ /* Bottom right text */
+ .bottom-right {
+   position: absolute;
+   bottom: 8px;
+   right: 16px;
+ }
+ 
+ /* Centered text */
+ .centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+   html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+
+table   {width:65%;
+   margin-left:auto;
+   margin-right:auto;
+   border-color:#332d2d;
+   border-style:ridge;
+   border-width:10px;}
+ 
+.menu {text-align:center;
+   width:60%;}
+ 
+.menuicon   {width:23%;}
+ 
+.menupipe   {width:1%;}
+ 
+th      {color:white;
+   background-color:rgb(111, 194, 214)}
+ 
+tr.stripe   {background-color:#d8d8ce;}
+ 
+td.bolder   {font-weight:bold;}
+ 
+caption     {caption-side: bottom;
+       font-style: serif;}
+       
+
+/*About Us Page*/
+*, *:before, *:after {
+box-sizing: inherit;
+       }
+
+.column {
+         float: left;
+         width: 50%;
+         margin-bottom: 16px;
+         padding: 0 8px;
+       }
+
+@media screen and (max-width: 650px) {
+         .column {
+           width: 100%;
+           display: block;
+         }
+       }
+       
+.card {
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+         margin: 8px;
+       }
+       
+.about-section {
+         padding: 50px;
+         text-align: center;
+         background-color: rgb(180, 122, 228);
+         color: rgb(255, 255, 255);
+       }
+
+.reference-section{
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(214, 163, 86);
+  color: rgb(255, 255, 255);
+
+}
+.firstcart-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(127, 196, 118);
+  color: rgb(255, 255, 255);
+}
+
+.secondcart-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(187, 216, 107);
+  color: rgb(255, 255, 255);
+}
+
+       
+       /*About Us Page*/
+.container {
+         padding: 0 16px;
+         color: rgb(249, 237, 253);
+       }
+       
+.container::after, .row::after {
+         content: "";
+         clear: both;
+         display: table;
+       }
+       
+.title {
+         color: grey;
+       }
+       
+.button {
+         border: none;
+         outline: 0;
+         display: inline-block;
+         padding: 8px;
+         color: white;
+         background-color: rgb(111, 194, 214);
+         text-align: center;
+         cursor: pointer;
+         width: 50%;
+       }
+
+  .btn {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: rgb(111, 194, 214);
+        text-align: center;
+        cursor: pointer;
+        width: 10%;
+  }
+       
+.button:hover,.btn:hover {
+         background-color: rgb(207, 90, 198);
+       }
+
+div {
+      text-align: center;
+      }
