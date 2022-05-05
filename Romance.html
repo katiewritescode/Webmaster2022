@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="store.js" async></script>
+<meta charset="utf-8" />
+<title>Webmaster Books</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+       <!-- Navigation Bar -->
+       <div class="container">
+        <div class="bottom-left"></div>
+        <div class="top-left"></div>
+        <div class="top-right"><a href="index.html">Home | </a><a href="Books.html"> Books |</a><a href="Cart.html"> Cart |</a><a href="AboutUs.html"> About Us |</a> <a href="References.html">References |</a></div>
+        <div class="bottom-right"></div>
+        <div class="home-section">
+
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+<p></p>
+
+
+
+
+<!--Drop Down Menu-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Sort by Genre</button>
+  <div id="myDropdown" class="dropdown-content">
+<a href="Books.html">Unsorted</a>
+<a href="Fiction.html">Fiction</a>
+<a href="Nonfiction.html">Nonfiction</a>
+<a href="Biography.html">Biography</a>
+<a href="Horror.html">Horror</a>
+<a href="Romance.html">Romance</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<p></p>
+
+&nbsp
+&nbsp
+&nbsp
+
+<table border="1" style="border-spacing: 5px; padding: 15px">
+<tr style="background-color: #eddaa7">
+<th colspan=2><span style="font-size: large">
+<br />Our Books!<br /><p></p>
+
+</span></th>
+
+
+</tr>
+<tr>
+<th>Book</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td><p></p>
+        <h3><i>Where The Stars Don't Shine</i></h3>
+        <img src="books/book2.png" style="width:30%">
+        <h5>A thrilling romance novel where a young couple, despite<br>their differences, can't stop coming back to each other. They <br> have a grip on each other that neither understands...</h5>
+</td>
+<td>$12.99
+        <p><button class="button"><a href="Cart.html">Purchase</button></p></a>
+</td>
+</tr>
+<tr>
+    <td><p></p>
+            <h3><i>The Cafe on Mango Street</i></h3>
+            <img src="books/book8.png" style="width:30%">
+            <h5>The story of former lovers who are brought together again by fate in a small<br>cafe in their hometown. Will they fall for each other again<br>or fall back into their argumentative habits?</h5>
+    </td>
+    <td>$17.99
+            <p><button class="button"><a href="Cart.html">Purchase</button></p></a>
+    </td>
+    </tr> 
+                            
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+<p style="font-size: small; text-align: center"><a href="index.html">Back to home</a></p>
+</body>
+</html>
+ 
+ 
+ 
+
