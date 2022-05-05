@@ -11,6 +11,15 @@ p {margin-left: 10pt;
 h1 {text-align:center;
    }
 
+.reply-name {
+  text-align:right;
+}
+
+.reply-text {
+  text-align:right;
+  font-size:small;
+}
+
 h2 {text-align:center;
     color: rgb(255, 255, 255);
    }
