@@ -202,6 +202,19 @@ box-sizing: inherit;
          width: 50%;
        }
 
+.otherbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+}
+
   .btn {
         border: none;
         outline: 0;
