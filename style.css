@@ -111,7 +111,7 @@ table   {width:65%;
 .menupipe   {width:1%;}
  
 th      {color:white;
-   background-color:rgb(111, 194, 214)}
+   background-color:rgb(123, 66, 197)}
  
 tr.stripe   {background-color:#d8d8ce;}
  
@@ -133,6 +133,13 @@ box-sizing: inherit;
          padding: 0 8px;
        }
 
+.column2 {
+        float: left;
+        width: 33%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
 @media screen and (max-width: 650px) {
          .column {
            width: 100%;
@@ -148,28 +155,21 @@ box-sizing: inherit;
 .about-section {
          padding: 50px;
          text-align: center;
-         background-color: rgb(180, 122, 228);
+         background-color: rgb(123, 66, 197);
          color: rgb(255, 255, 255);
        }
 
-.reference-section{
-  padding: 50px;
-  text-align: center;
-  background-color: rgb(214, 163, 86);
-  color: rgb(255, 255, 255);
-
-}
 .firstcart-section {
   padding: 50px;
   text-align: center;
-  background-color: rgb(127, 196, 118);
+  background-color: rgb(123, 66, 197);
   color: rgb(255, 255, 255);
 }
 
 .secondcart-section {
   padding: 50px;
   text-align: center;
-  background-color: rgb(187, 216, 107);
+  background-color: rgb(123, 66, 197);
   color: rgb(255, 255, 255);
 }
 
@@ -186,6 +186,48 @@ box-sizing: inherit;
          display: table;
        }
        
+
+
+       .dropbtn {
+        background-color: rgb(123, 66, 197);
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: rgb(123, 66, 197);
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+
+
 .title {
          color: grey;
        }
@@ -196,7 +238,7 @@ box-sizing: inherit;
          display: inline-block;
          padding: 8px;
          color: white;
-         background-color: rgb(111, 194, 214);
+         background-color: rgb(123, 66, 197);
          text-align: center;
          cursor: pointer;
          width: 50%;
@@ -206,7 +248,7 @@ box-sizing: inherit;
   border: none;
   outline: 0;
   display: inline-block;
-  background-color: #3498DB;
+  background-color: rgb(123, 66, 197);
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -221,14 +263,14 @@ box-sizing: inherit;
         display: inline-block;
         padding: 8px;
         color: white;
-        background-color: rgb(111, 194, 214);
+        background-color: rgb(123, 66, 197);
         text-align: center;
         cursor: pointer;
         width: 10%;
   }
        
 .button:hover,.btn:hover {
-         background-color: rgb(207, 90, 198);
+         background-color: rgb(199, 173, 60);
        }
 
 div {
